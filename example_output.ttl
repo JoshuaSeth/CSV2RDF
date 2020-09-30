@@ -2,23 +2,23 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-<http://dbpedia.org/resource/Ambiorix's_revolt> a owl:Thing .
+<http://dbpedia.org/resource/Ambiorix's_revolt> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Avaricum> a owl:Thing ;
+<http://dbpedia.org/resource/Avaricum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Vercingetorix> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Gallic_Wars> ;
     ex:place <http://dbpedia.org/resource/Gaul> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_at_the_Harzhorn> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_at_the_Harzhorn> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Crisis_of_the_Third_Century> ;
     ex:place <http://dbpedia.org/resource/Germany>,
         <http://dbpedia.org/resource/Lower_Saxony> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Abritus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Abritus> a ex:Roman_wars ;
     ex:causalties "Heavy" ;
     ex:commander <http://dbpedia.org/resource/Cniva>,
         <http://dbpedia.org/resource/Herennius_Etruscus>,
@@ -30,7 +30,7 @@
         <http://dbpedia.org/resource/Razgrad> ;
     ex:result "Gothic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Actium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Actium> a ex:Roman_wars ;
     ex:causalties "About 2,500 killed" ;
     ex:commander <http://dbpedia.org/resource/Cleopatra_VII>,
         <http://dbpedia.org/resource/Gaius_Sosius>,
@@ -46,7 +46,7 @@
         <http://dbpedia.org/resource/Ionian_sea> ;
     ex:result "Decisive victory for Octavian" .
 
-<http://dbpedia.org/resource/Battle_of_Ad_Decimum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ad_Decimum> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Belisarius>,
         <http://dbpedia.org/resource/Gelimer> ;
@@ -55,7 +55,7 @@
     ex:place <http://dbpedia.org/resource/Carthage> ;
     ex:result "Byzantinevictory" .
 
-<http://dbpedia.org/resource/Battle_of_Adamclisi> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Adamclisi> a ex:Roman_wars ;
     ex:causalties "the vast majority of the army" ;
     ex:commander <http://dbpedia.org/resource/Trajan> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Trajan's_Dacian_Wars> ;
@@ -64,7 +64,7 @@
         <http://dbpedia.org/resource/Romania> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Adrianople> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Adrianople> a ex:Roman_wars ;
     ex:causalties "10-15,000 or",
         "20,000 (roughly two-thirds of the Roman force)" ;
     ex:commander <http://dbpedia.org/resource/Alatheus>,
@@ -76,7 +76,7 @@
     ex:place <http://dbpedia.org/resource/Edirne> ;
     ex:result "Decisive Gothic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Adrianople_(324)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Adrianople_(324)> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Constantine_I>,
         <http://dbpedia.org/resource/Licinius> ;
@@ -85,7 +85,7 @@
     ex:place <http://dbpedia.org/resource/Edirne> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Ager_Falernus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ager_Falernus> a ex:Roman_wars ;
     ex:causalties "Light" ;
     ex:commander <http://dbpedia.org/resource/Fabius_Maximus>,
         <http://dbpedia.org/resource/Hannibal_Barca> ;
@@ -94,7 +94,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Agrigentum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Agrigentum> a ex:Roman_wars ;
     ex:causalties "1,200" ;
     ex:commander <http://dbpedia.org/resource/Hannibal_Gisco>,
         <http://dbpedia.org/resource/Hanno,_son_of_Hannibal>,
@@ -104,7 +104,7 @@
     ex:place <http://dbpedia.org/resource/Agrigentum> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Alesia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Alesia> a ex:Roman_wars ;
     ex:causalties "unknown (heavy)" ;
     ex:commander <http://dbpedia.org/resource/Commius>,
         <http://dbpedia.org/resource/Julius_Caesar>,
@@ -114,7 +114,7 @@
     ex:result "Decisive Roman victory",
         "Rome secures the conquest ofGaul" .
 
-<http://dbpedia.org/resource/Battle_of_Antioch_(218)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Antioch_(218)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gannys>,
         <http://dbpedia.org/resource/Macrinus> ;
     ex:date "0218-06-08" ;
@@ -122,7 +122,7 @@
         <http://dbpedia.org/resource/Syria> ;
     ex:result "Elagabalus victory" .
 
-<http://dbpedia.org/resource/Battle_of_Aquae_Sextiae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Aquae_Sextiae> a ex:Roman_wars ;
     ex:causalties "20,000 captured",
         "about 90,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Marius>,
@@ -132,12 +132,12 @@
         <http://dbpedia.org/resource/France> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Aquilonia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Aquilonia> a ex:Roman_wars ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Samnite_War> ;
     ex:place <http://dbpedia.org/resource/Agnone> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Arausio> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Arausio> a ex:Roman_wars ;
     ex:causalties "15,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Germanic_Kingship>,
         <http://dbpedia.org/resource/Gnaeus_Mallius_Maximus>,
@@ -149,7 +149,7 @@
         <http://dbpedia.org/resource/Rhône_River> ;
     ex:result "Cimbrian and Teutonic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Argentovaria> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Argentovaria> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Mallobaudes>,
         <http://dbpedia.org/resource/Nannienus>,
@@ -158,14 +158,14 @@
         <http://dbpedia.org/resource/Colmar> ;
     ex:result "Decisive Western Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Arretium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Arretium> a ex:Roman_wars ;
     ex:causalties "Uncertain, 13,000 according to some doubtful claims" ;
     ex:commander <http://dbpedia.org/resource/Britomaris>,
         <http://dbpedia.org/resource/Lucius_Caecilius_Metellus_Denter> ;
     ex:place <http://dbpedia.org/resource/Arretium> ;
     ex:result "Gallic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Artaxata> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Artaxata> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucullus>,
         <http://dbpedia.org/resource/Mithridates_VI_of_Pontus>,
         <http://dbpedia.org/resource/Tigranes_the_Great> ;
@@ -174,9 +174,9 @@
         <http://dbpedia.org/resource/Artaxata> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Asculum_(279_BC)> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Asculum_(279_BC)> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Baduhenna_Wood> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Baduhenna_Wood> a ex:Roman_wars ;
     ex:causalties "Minimal" ;
     ex:commander <http://dbpedia.org/resource/Lucius_Apronius> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Germanic_Wars> ;
@@ -184,7 +184,7 @@
         <http://dbpedia.org/resource/Netherlands> ;
     ex:result "Indecisive, Tactical Frisian victory; Roman withdrawal" .
 
-<http://dbpedia.org/resource/Battle_of_Baecula> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Baecula> a ex:Roman_wars ;
     ex:causalties "10,000 captured",
         "About 6,000 killed," ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal_Barca>,
@@ -194,7 +194,7 @@
         <http://dbpedia.org/resource/Spain> ;
     ex:result "Roman victory; Hasdrubal departed Iberia without sufficient force to march on Italy immediately" .
 
-<http://dbpedia.org/resource/Battle_of_Bagradas> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Bagradas> a ex:Roman_wars ;
     ex:causalties "12,000 dead",
         "500 captured" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Atilius_Regulus>,
@@ -203,7 +203,7 @@
     ex:place <http://dbpedia.org/resource/Tunis> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Barbalissos> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Barbalissos> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Shapur_I> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman–Persian_Wars> ;
@@ -211,9 +211,9 @@
         <http://dbpedia.org/resource/Mesopotamia> ;
     ex:result "Sassanidvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Bedriacum> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Bedriacum> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Beneventum_(214_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Beneventum_(214_BC)> a ex:Roman_wars ;
     ex:causalties "4,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Hanno_the_Elder>,
         <http://dbpedia.org/resource/Tiberius_Sempronius_Gracchus_(consul_215_BC)> ;
@@ -221,7 +221,7 @@
     ex:place <http://dbpedia.org/resource/Benevento> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Beneventum_(275_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Beneventum_(275_BC)> a ex:Roman_wars ;
     ex:causalties "9,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Manius_Curius_Dentatus>,
         <http://dbpedia.org/resource/Pyrrhus_of_Epirus> ;
@@ -230,7 +230,7 @@
         <http://dbpedia.org/resource/Campania> ;
     ex:result "Tactically inconclusive; Strategic Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Bibracte> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Bibracte> a ex:Roman_wars ;
     ex:causalties "Some 5,000 killed or wounded" ;
     ex:commander <http://dbpedia.org/resource/Divico>,
         <http://dbpedia.org/resource/Julius_Caesar> ;
@@ -239,7 +239,7 @@
         <http://dbpedia.org/resource/Saône-et-Loire> ;
     ex:result "Roman victory; Helvetii surrender" .
 
-<http://dbpedia.org/resource/Battle_of_Bovianum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Bovianum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucius_Postumius_Megellus_(consul_305_BC)>,
         <http://dbpedia.org/resource/Statius_Gellius>,
         <http://dbpedia.org/resource/Tiberius_Minucius_Augurinus> ;
@@ -249,7 +249,7 @@
         <http://dbpedia.org/resource/Pietrabbondante> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Brumath> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Brumath> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Julian_the_Apostate> ;
     ex:place <http://dbpedia.org/resource/Alsace>,
@@ -259,14 +259,14 @@
         <http://dbpedia.org/resource/Gallia_Lugdunensis> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cabira> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cabira> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucullus>,
         <http://dbpedia.org/resource/Mithridates_VI_of_Pontus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Mithridatic_War> ;
     ex:place <http://dbpedia.org/resource/Cabira> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Caer_Caradoc> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Caer_Caradoc> a ex:Roman_wars ;
     ex:causalties "1,200" ;
     ex:commander <http://dbpedia.org/resource/Caratacus>,
         <http://dbpedia.org/resource/Publius_Ostorius_Scapula> ;
@@ -275,7 +275,7 @@
         <http://dbpedia.org/resource/Herefordshire_Beacon> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Callinicus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Callinicus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Perseus_of_Macedon>,
         <http://dbpedia.org/resource/Publius_Licinius_Crassus_(consul_171_BC)> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Macedonian_War> ;
@@ -283,14 +283,14 @@
         <http://dbpedia.org/resource/Tripolis_Larisaia> ;
     ex:result "Macedonian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Camerinum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Camerinum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucius_Cornelius_Scipio_Barbatus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Samnite_War> ;
     ex:place <http://dbpedia.org/resource/Camerino>,
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Samnite victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cannae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cannae> a ex:Roman_wars ;
     ex:causalties "* 1,500 Spanish and African",
         "* 200 cavalry",
         "* 4,000 Gallic",
@@ -311,7 +311,7 @@
     ex:result "Carthaginian victory",
         "See the [[#Aftermath" .
 
-<http://dbpedia.org/resource/Battle_of_Canusium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Canusium> a ex:Roman_wars ;
     ex:causalties "reportedly 8,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
@@ -321,7 +321,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Inconclusive" .
 
-<http://dbpedia.org/resource/Battle_of_Capua> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Capua> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Appius_Claudius_Pulcher_(consul_212_BC)>,
         <http://dbpedia.org/resource/Hannibal>,
@@ -331,7 +331,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Capua_(211_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Capua_(211_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Appius_Claudius_Pulcher_(consul_212_BC)>,
         <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Hanno,_son_of_Bomilcar>,
@@ -341,7 +341,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "capture of Capua by the Romans" .
 
-<http://dbpedia.org/resource/Battle_of_Carrhae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Carrhae> a ex:Roman_wars ;
     ex:causalties "10,000 captured",
         "10,000 escaped",
         "20,000 killed" ;
@@ -353,18 +353,18 @@
     ex:place <http://dbpedia.org/resource/Harran> ;
     ex:result "DecisiveParthian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cartagena_(209_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cartagena_(209_BC)> a ex:Roman_wars ;
     ex:causalties "1,600" ;
     ex:commander <http://dbpedia.org/resource/Scipio_Africanus_Major> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
     ex:place <http://dbpedia.org/resource/Cartagena,_Spain> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Carthage_(238)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Carthage_(238)> a ex:Roman_wars ;
     ex:place <http://dbpedia.org/resource/Carthage> ;
     ex:result "Maximinus victory" .
 
-<http://dbpedia.org/resource/Battle_of_Carthage_(c._149_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Carthage_(c._149_BC)> a ex:Roman_wars ;
     ex:causalties "17,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal_the_Boetharch>,
         <http://dbpedia.org/resource/Manius_Manilius>,
@@ -375,7 +375,7 @@
         "Destruction ofCarthage's city and empire",
         "End of thePunic Wars" .
 
-<http://dbpedia.org/resource/Battle_of_Chaeronea_(86_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Chaeronea_(86_BC)> a ex:Roman_wars ;
     ex:causalties "12 (figures are greatly disputed)" ;
     ex:commander <http://dbpedia.org/resource/Archelaus_(general)>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla> ;
@@ -384,28 +384,28 @@
         <http://dbpedia.org/resource/Chaeronea> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Chalcedon_(74_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Chalcedon_(74_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Marcus_Aurelius_Cotta_(consul_74_BC)>,
         <http://dbpedia.org/resource/Mithridates_VI_of_Pontus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Mithridatic_War> ;
     ex:place <http://dbpedia.org/resource/Chalcedon> ;
     ex:result "Pontic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Chrysopolis> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Chrysopolis> a ex:Roman_wars ;
     ex:date "0324-09-18" ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Tetrarchy> ;
     ex:place <http://dbpedia.org/resource/Chalcedon>,
         <http://dbpedia.org/resource/Üsküdar> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Châlons_(274)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Châlons_(274)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian>,
         <http://dbpedia.org/resource/Tetricus_I> ;
     ex:place <http://dbpedia.org/resource/Châlons-en-Champagne>,
         <http://dbpedia.org/resource/France> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cibalae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cibalae> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Constantine_II_(emperor)>,
         <http://dbpedia.org/resource/Licinius> ;
@@ -414,7 +414,7 @@
         <http://dbpedia.org/resource/Vinkovci> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cirta> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cirta> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gaius_Laelius>,
         <http://dbpedia.org/resource/Masinissa>,
         <http://dbpedia.org/resource/Syphax> ;
@@ -422,7 +422,7 @@
     ex:place <http://dbpedia.org/resource/Cirta> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cissa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cissa> a ex:Roman_wars ;
     ex:causalties "2,000 captured",
         "6,000 killed," ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Cornelius_Scipio_Calvus> ;
@@ -431,16 +431,16 @@
         <http://dbpedia.org/resource/Tarraco_(Tarragona)> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Clastidium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Clastidium> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Marcus_Claudius_Marcellus>,
         <http://dbpedia.org/resource/Viridomarus> ;
     ex:place <http://dbpedia.org/resource/Clastidium>,
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Corbione> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Corbione> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Corinth_(146_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Corinth_(146_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Diaeus>,
         <http://dbpedia.org/resource/Lucius_Mummius_Achaicus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Achaean_War> ;
@@ -449,7 +449,7 @@
         "Decisive Roman victory;",
         "destruction of Corinth" .
 
-<http://dbpedia.org/resource/Battle_of_Cornus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cornus> a ex:Roman_wars ;
     ex:causalties "13,500 casualties; 12,000 killed and 1,500 captured, including Hasdrubal the Bald." ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal_the_Bald>,
         <http://dbpedia.org/resource/Titus_Manlius_Torquatus_(dictator)> ;
@@ -459,7 +459,7 @@
         <http://dbpedia.org/resource/Sardinia> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Crotona> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Crotona> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hannibal> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
     ex:place <http://dbpedia.org/resource/Calabria>,
@@ -467,7 +467,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Indecisive" .
 
-<http://dbpedia.org/resource/Battle_of_Ctesiphon_(363)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ctesiphon_(363)> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Julian_the_Apostate>,
         <http://dbpedia.org/resource/Merena> ;
@@ -478,7 +478,7 @@
     ex:result "StrategicSassanidvictory",
         "TacticalRomanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Cynoscephalae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Cynoscephalae> a ex:Roman_wars ;
     ex:causalties "about 2,000 killed or wounded" ;
     ex:commander <http://dbpedia.org/resource/Philip_V_of_Macedon>,
         <http://dbpedia.org/resource/Titus_Quinctius_Flamininus> ;
@@ -486,9 +486,9 @@
     ex:place <http://dbpedia.org/resource/Thessaly> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Cyzicus_(193)> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Cyzicus_(193)> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Dertosa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Dertosa> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Cornelius_Scipio_Calvus>,
         <http://dbpedia.org/resource/Hasdrubal_Barca>,
@@ -498,13 +498,13 @@
         <http://dbpedia.org/resource/Tortosa> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Durocortorum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Durocortorum> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Julian_the_Apostate> ;
     ex:place <http://dbpedia.org/resource/Reims> ;
     ex:result "Alamanni victory" .
 
-<http://dbpedia.org/resource/Battle_of_Dyrrhachium_(48_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Dyrrhachium_(48_BC)> a ex:Roman_wars ;
     ex:causalties "2,000" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Pompey> ;
@@ -513,7 +513,7 @@
     ex:place <http://dbpedia.org/resource/Dyrrhachium> ;
     ex:result "Optimates' victory" .
 
-<http://dbpedia.org/resource/Battle_of_Déols> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Déols> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Riothamus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Germanic_Wars> ;
@@ -521,7 +521,7 @@
         <http://dbpedia.org/resource/France> ;
     ex:result "Visigothicvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Ebro_River> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ebro_River> a ex:Roman_wars ;
     ex:causalties "25 captured",
         "4 sunk," ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Cornelius_Scipio_Calvus> ;
@@ -530,7 +530,7 @@
         <http://dbpedia.org/resource/Spain> ;
     ex:result "DecisiveRomanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Edessa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Edessa> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Shapur_I>,
         <http://dbpedia.org/resource/Valerian_(emperor)> ;
@@ -539,7 +539,7 @@
         <http://dbpedia.org/resource/Osroene_(Roman_province)> ;
     ex:result "DecisiveSassanidvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Emesa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Emesa> a ex:Roman_wars ;
     ex:causalties "Unknown, but probably light" ;
     ex:commander <http://dbpedia.org/resource/Aurelian>,
         <http://dbpedia.org/resource/Zabdas>,
@@ -548,7 +548,7 @@
         <http://dbpedia.org/resource/Syria> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Faesulae_(406)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Faesulae_(406)> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Flavius_Stilicho>,
         <http://dbpedia.org/resource/Radagaisus>,
@@ -558,14 +558,14 @@
     ex:place <http://dbpedia.org/resource/Fiesole> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Fano> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Fano> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Metaurus_River> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Faventia_(82_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Faventia_(82_BC)> a ex:Roman_wars ;
     ex:causalties "Low" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Norbanus_Balbus>,
         <http://dbpedia.org/resource/Quintus_Caecilius_Metellus_Pius> ;
@@ -574,7 +574,7 @@
         <http://dbpedia.org/resource/Roman_Republic> ;
     ex:result "Indecisive Populares Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Forum_Gallorum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Forum_Gallorum> a ex:Roman_wars ;
     ex:causalties "the majority of 5 legions, all of Octavians Praetorian cohort" ;
     ex:commander <http://dbpedia.org/resource/Aulus_Hirtius>,
         <http://dbpedia.org/resource/Gaius_Julius_Caesar_Octavianus>,
@@ -584,7 +584,7 @@
     ex:place <http://dbpedia.org/resource/Northern_Italy> ;
     ex:result "Minor Republican victory" .
 
-<http://dbpedia.org/resource/Battle_of_Gergovia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Gergovia> a ex:Roman_wars ;
     ex:causalties "according toJulius Caesar: 46 centurions and 700 legionnaries but modern estimates several thousands roman and Aedui killed, 6000 wounded" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Vercingetorix> ;
@@ -592,7 +592,7 @@
     ex:place <http://dbpedia.org/resource/Gaul> ;
     ex:result "Gallic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Geronium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Geronium> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Minucius_Rufus> ;
@@ -601,7 +601,7 @@
     ex:result "TacticalCarthaginianvictory",
         "strategic draw" .
 
-<http://dbpedia.org/resource/Battle_of_Grumentum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Grumentum> a ex:Roman_wars ;
     ex:causalties "800 killed, 700 captured" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Claudius_Nero>,
         <http://dbpedia.org/resource/Hannibal>,
@@ -611,7 +611,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "minor Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Heraclea> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Heraclea> a ex:Roman_wars ;
     ex:causalties "7,000 killed and 7,000 taken prisoner" ;
     ex:commander <http://dbpedia.org/resource/Publius_Valerius_Laevinus>,
         <http://dbpedia.org/resource/Pyrrhus_of_Epirus> ;
@@ -621,7 +621,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "EpirotePyrrhic Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Herdonia_(210_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Herdonia_(210_BC)> a ex:Roman_wars ;
     ex:causalties "minimal" ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Fulvius_Centumalus_Maximus>,
         <http://dbpedia.org/resource/Hannibal> ;
@@ -630,7 +630,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Herdonia_(212_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Herdonia_(212_BC)> a ex:Roman_wars ;
     ex:causalties "Minimal" ;
     ex:commander <http://dbpedia.org/resource/Flaccus>,
         <http://dbpedia.org/resource/Hannibal> ;
@@ -640,7 +640,7 @@
         <http://dbpedia.org/resource/Ordona> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Ilerda> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ilerda> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Lucius_Afranius_(consul)>,
         <http://dbpedia.org/resource/Marcus_Petreius>,
@@ -649,7 +649,7 @@
     ex:place <http://dbpedia.org/resource/Lérida> ;
     ex:result "Caesarian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Ilipa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ilipa> a ex:Roman_wars ;
     ex:causalties "48,500 killed or captured (6,000 soldiers escaped)" ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal_Gisco>,
         <http://dbpedia.org/resource/Mago_Barca>,
@@ -662,14 +662,14 @@
     ex:result "Carthaginian hold on Iberia forever broken",
         "Decisive Roman victory;" .
 
-<http://dbpedia.org/resource/Battle_of_Immae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Immae> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian>,
         <http://dbpedia.org/resource/Zabdas>,
         <http://dbpedia.org/resource/Zenobia> ;
     ex:place <http://dbpedia.org/resource/Antioch> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Issus_(194)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Issus_(194)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Pescennius_Niger>,
         <http://dbpedia.org/resource/Publius_Cornelius_Anullinus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Year_of_the_Five_Emperors> ;
@@ -677,22 +677,22 @@
         <http://dbpedia.org/resource/Issus_(town)> ;
     ex:result "Decisive Severan victory" .
 
-<http://dbpedia.org/resource/Battle_of_Korakesion> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Korakesion> a ex:Roman_wars ;
     ex:causalties "?" ;
     ex:commander <http://dbpedia.org/resource/Pompey> ;
     ex:place <http://dbpedia.org/resource/Korakesion>,
         <http://dbpedia.org/resource/Roman_Republic> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Benacus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lake_Benacus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian>,
         <http://dbpedia.org/resource/Claudius_II> ;
     ex:place <http://dbpedia.org/resource/Lake_Garda> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Constance> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Lake_Constance> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Regillus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lake_Regillus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aulus_Postumius_Albus_Regillensis>,
         <http://dbpedia.org/resource/Octavius_Mamilius>,
         <http://dbpedia.org/resource/Tarquinius_Superbus>,
@@ -702,7 +702,7 @@
     ex:result "Decisive Roman victory",
         "End of Tarquinian attempts to retake the Roman throne" .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Trasimene> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lake_Trasimene> a ex:Roman_wars ;
     ex:causalties "2,500 killed and \"many\" dead from wounds" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Flaminius_Nepos>,
         <http://dbpedia.org/resource/Hannibal> ;
@@ -712,35 +712,35 @@
         <http://dbpedia.org/resource/Lake_Trasimene> ;
     ex:result "Carthaginianvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Vadimo_(283_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lake_Vadimo_(283_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Publius_Cornelius_Dolabella_(consul_283_BC)> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Lake_Vadimo> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Lake_Vadimo_(310_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lake_Vadimo_(310_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucius_Papirius_Cursor> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Samnite_War> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Lake_Vadimo> ;
     ex:result "Roman Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Lautulae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lautulae> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Quintus_Fabius_Maximus_Rullianus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Samnite_War> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Terracina> ;
     ex:result "Samnite victory" .
 
-<http://dbpedia.org/resource/Battle_of_Lingones> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lingones> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Constantius_Chlorus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
     ex:place <http://dbpedia.org/resource/Langres> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Locus_Castorum> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Locus_Castorum> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Lugdunum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Lugdunum> a ex:Roman_wars ;
     ex:causalties "Unknown but severe" ;
     ex:commander <http://dbpedia.org/resource/Clodius_Albinus>,
         <http://dbpedia.org/resource/Septimius_Severus> ;
@@ -748,7 +748,7 @@
     ex:place <http://dbpedia.org/resource/Lugdunum> ;
     ex:result "Severan victory" .
 
-<http://dbpedia.org/resource/Battle_of_Magnesia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Magnesia> a ex:Roman_wars ;
     ex:causalties "(ancient sources)",
         "(modern source)",
         "5,000",
@@ -763,7 +763,7 @@
         <http://dbpedia.org/resource/Magnesia_ad_Sipylum> ;
     ex:result "DecisivePergamene-Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Mardia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mardia> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Constantine_I>,
         <http://dbpedia.org/resource/Licinius>,
@@ -773,7 +773,7 @@
         <http://dbpedia.org/resource/Harmanli> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mediolanum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mediolanum> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Gallienus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
@@ -781,7 +781,7 @@
         <http://dbpedia.org/resource/Mediolanum> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Messana> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Messana> a ex:Roman_wars ;
     ex:causalties "1,340 casualties" ;
     ex:commander <http://dbpedia.org/resource/Appius_Claudius_Caudex>,
         <http://dbpedia.org/resource/Hanno,_Messana_garrison_commander>,
@@ -792,14 +792,14 @@
     ex:place <http://dbpedia.org/resource/Messana> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Misiche> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Misiche> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gordian_III>,
         <http://dbpedia.org/resource/Shapur_I> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Persian_Wars> ;
     ex:place <http://dbpedia.org/resource/Mesopotamia> ;
     ex:result "DecisiveSassanidvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Mons_Algidus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mons_Algidus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Cincinnatus>,
         <http://dbpedia.org/resource/Gracchus_Clelius>,
         <http://dbpedia.org/resource/Lucius_Minucius_Esquilinus_Augurinus> ;
@@ -807,20 +807,20 @@
         <http://dbpedia.org/resource/Rome> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mons_Graupius> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mons_Graupius> a ex:Roman_wars ;
     ex:causalties "360" ;
     ex:commander <http://dbpedia.org/resource/Calgacus>,
         <http://dbpedia.org/resource/Gnaeus_Julius_Agricola> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman_conquest_of_Britain> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mons_Seleucus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mons_Seleucus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Constantius_II>,
         <http://dbpedia.org/resource/Magnentius> ;
     ex:place <http://dbpedia.org/resource/La_Bâtie-Montsaléon> ;
     ex:result "Constantius decisive victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mount_Gaurus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mount_Gaurus> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Valerius_Corvus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/First_Samnite_War> ;
@@ -829,7 +829,7 @@
         <http://dbpedia.org/resource/Mount_Barbaro> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mount_Olympus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mount_Olympus> a ex:Roman_wars ;
     ex:causalties "10,000 dead,",
         "40,000 captured" ;
     ex:commander <http://dbpedia.org/resource/Attalus_II>,
@@ -840,19 +840,19 @@
         <http://dbpedia.org/resource/Uludağ> ;
     ex:result "Roman-Pergamese Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mount_Scorobas> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mount_Scorobas> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Archelaus_(general)>,
         <http://dbpedia.org/resource/Manius_Aquillius_(consul_101_BC)> ;
     ex:result "Pontic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mount_Tifata> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mount_Tifata> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gaius_Norbanus>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/First_Roman_Civil_War> ;
     ex:place <http://dbpedia.org/resource/Tifata> ;
     ex:result "Aristocratic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Munda> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Munda> a ex:Roman_wars ;
     ex:causalties "7,000" ;
     ex:commander <http://dbpedia.org/resource/Augustus>,
         <http://dbpedia.org/resource/Gnaeus_Pompeius_(son_of_Pompey_the_Great)>,
@@ -867,7 +867,7 @@
         <http://dbpedia.org/resource/Spain> ;
     ex:result "Caesarian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mursa_Major> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mursa_Major> a ex:Roman_wars ;
     ex:causalties "25,000" ;
     ex:commander <http://dbpedia.org/resource/Constantius_II>,
         <http://dbpedia.org/resource/Magnentius> ;
@@ -875,7 +875,7 @@
     ex:place <http://dbpedia.org/resource/Pannonia> ;
     ex:result "Constantius victory" .
 
-<http://dbpedia.org/resource/Battle_of_Mutina> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mutina> a ex:Roman_wars ;
     ex:causalties "8,000" ;
     ex:commander <http://dbpedia.org/resource/Augustus>,
         <http://dbpedia.org/resource/Aulus_Hirtius>,
@@ -884,7 +884,7 @@
     ex:date "-043-04-21" ;
     ex:result "Tactical Republican victory, Strategic Mark Antony victory (Antony prevents encirclement of his forces, the enemy consul was killed), Octavian and the Republic sign a treaty with Antony" .
 
-<http://dbpedia.org/resource/Battle_of_Mylae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Mylae> a ex:Roman_wars ;
     ex:causalties "11 ships" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Duilius>,
         <http://dbpedia.org/resource/Hannibal_Gisco> ;
@@ -893,7 +893,7 @@
         <http://dbpedia.org/resource/Sicily> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Naissus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Naissus> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Claudius_II>,
         <http://dbpedia.org/resource/Gallienus> ;
@@ -902,7 +902,7 @@
         <http://dbpedia.org/resource/Serbia> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Narbonne_(436)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Narbonne_(436)> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Litorius>,
         <http://dbpedia.org/resource/Theodoric_I> ;
@@ -910,7 +910,7 @@
         <http://dbpedia.org/resource/Narbonne> ;
     ex:result "Roman Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Naulochus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Naulochus> a ex:Roman_wars ;
     ex:causalties "28 ships sunk, 17 fled, the others captured" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Vipsanius_Agrippa>,
         <http://dbpedia.org/resource/Sextus_Pompey> ;
@@ -920,20 +920,20 @@
         <http://dbpedia.org/resource/Sicily> ;
     ex:result "Octavian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Nicaea> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nicaea> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Pescennius_Niger>,
         <http://dbpedia.org/resource/Septimius_Severus> ;
     ex:place <http://dbpedia.org/resource/İznik> ;
     ex:result "victory for Septimius Severus" .
 
-<http://dbpedia.org/resource/Battle_of_Nicopolis_(48_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nicopolis_(48_BC)> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Domitius_Calvinus>,
         <http://dbpedia.org/resource/Pharnaces_II_of_Pontus> ;
     ex:place <http://dbpedia.org/resource/Nicopolis_(Pontus)> ;
     ex:result "Pontic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Nisibis_(217)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nisibis_(217)> a ex:Roman_wars ;
     ex:causalties "Heavy" ;
     ex:commander <http://dbpedia.org/resource/Artabanus_IV_of_Parthia>,
         <http://dbpedia.org/resource/Macrinus> ;
@@ -941,7 +941,7 @@
         <http://dbpedia.org/resource/Nisibis> ;
     ex:result "Draw" .
 
-<http://dbpedia.org/resource/Battle_of_Nola_(214_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nola_(214_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
@@ -949,7 +949,7 @@
         <http://dbpedia.org/resource/Nola> ;
     ex:result "Stalemate" .
 
-<http://dbpedia.org/resource/Battle_of_Nola_(215_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nola_(215_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
@@ -957,7 +957,7 @@
         <http://dbpedia.org/resource/Nola> ;
     ex:result "stalemate" .
 
-<http://dbpedia.org/resource/Battle_of_Nola_(216_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Nola_(216_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
@@ -965,7 +965,7 @@
         <http://dbpedia.org/resource/Nola> ;
     ex:result "Stalemate" .
 
-<http://dbpedia.org/resource/Battle_of_Noreia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Noreia> a ex:Roman_wars ;
     ex:causalties "24,000" ;
     ex:commander <http://dbpedia.org/resource/Boiorix>,
         <http://dbpedia.org/resource/Gnaeus_Papirius_Carbo_(consul_113_BC)>,
@@ -975,7 +975,7 @@
         <http://dbpedia.org/resource/Noricum> ;
     ex:result "Cimbrian and Teuton victory" .
 
-<http://dbpedia.org/resource/Battle_of_Numistro> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Numistro> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
@@ -983,7 +983,7 @@
         <http://dbpedia.org/resource/Numistro> ;
     ex:result "Inconclusive" .
 
-<http://dbpedia.org/resource/Battle_of_Orchomenus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Orchomenus> a ex:Roman_wars ;
     ex:causalties "about 100" ;
     ex:commander <http://dbpedia.org/resource/Archelaus_(general)>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla> ;
@@ -992,7 +992,7 @@
         <http://dbpedia.org/resource/Orchomenus_(Boeotia)> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Orleans_(463)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Orleans_(463)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aegidius>,
         <http://dbpedia.org/resource/Childeric_I>,
         <http://dbpedia.org/resource/Federico_(Visigoth_General)>,
@@ -1001,7 +1001,7 @@
     ex:place <http://dbpedia.org/resource/Orléans> ;
     ex:result "Roman/Salian Frank Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Panormus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Panormus> a ex:Roman_wars ;
     ex:causalties "2,500" ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal>,
         <http://dbpedia.org/resource/Lucius_Caecilius_Metellus_(died_221_BC)> ;
@@ -1009,7 +1009,7 @@
     ex:place <http://dbpedia.org/resource/Palermo> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Pavia_(271)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Pavia_(271)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
     ex:place <http://dbpedia.org/resource/Italy>,
@@ -1018,7 +1018,7 @@
         <http://dbpedia.org/resource/Ticinum> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Pharsalus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Pharsalus> a ex:Roman_wars ;
     ex:causalties "~230 (according to Caesar)" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Mark_Antony>,
@@ -1028,7 +1028,7 @@
     ex:place <http://dbpedia.org/resource/Farsala> ;
     ex:result "Decisive Caesarian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Philippi> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Philippi> a ex:Roman_wars ;
     ex:causalties "?" ;
     ex:commander <http://dbpedia.org/resource/Augustus>,
         <http://dbpedia.org/resource/Aulus_Allienus>,
@@ -1041,27 +1041,27 @@
         <http://dbpedia.org/resource/Philippi> ;
     ex:result "DecisiveSecond Triumviratevictory" .
 
-<http://dbpedia.org/resource/Battle_of_Philippopolis_(250)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Philippopolis_(250)> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Cniva> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Crisis_of_the_Third_Century> ;
     ex:place <http://dbpedia.org/resource/Ancient_Rome> ;
     ex:result "Gothic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Pistoria> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Pistoria> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Catiline>,
         <http://dbpedia.org/resource/Marcus_Petreius> ;
     ex:place <http://dbpedia.org/resource/Pistoia> ;
     ex:result "death of Catiline" .
 
-<http://dbpedia.org/resource/Battle_of_Placentia_(271)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Placentia_(271)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aurelian> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Piacenza> ;
     ex:result "Juthungi victory" .
 
-<http://dbpedia.org/resource/Battle_of_Pollentia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Pollentia> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Alaric_I>,
         <http://dbpedia.org/resource/Stilicho> ;
     ex:date "0402-04-06" ;
@@ -1070,12 +1070,12 @@
         <http://dbpedia.org/resource/Pollentia> ;
     ex:result "Minor Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Populonia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Populonia> a ex:Roman_wars ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Populonia> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Pydna> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Pydna> a ex:Roman_wars ;
     ex:causalties "25,000 killed, wounded and captured" ;
     ex:commander <http://dbpedia.org/resource/Lucius_Aemilius_Paullus_Macedonicus>,
         <http://dbpedia.org/resource/Perseus_of_Macedon> ;
@@ -1084,9 +1084,9 @@
     ex:place <http://dbpedia.org/resource/Pydna> ;
     ex:result "DecisiveRomanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_Ravenna_(432)> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Ravenna_(432)> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Resaena> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Resaena> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gaius_Furius_Sabinius_Aquila_Timesitheus>,
         <http://dbpedia.org/resource/Gordian_III>,
         <http://dbpedia.org/resource/Shapur_I> ;
@@ -1096,7 +1096,7 @@
         <http://dbpedia.org/resource/Syria> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Ruspina> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ruspina> a ex:Roman_wars ;
     ex:causalties "6,000" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Titus_Labienus> ;
@@ -1105,7 +1105,7 @@
     ex:place <http://dbpedia.org/resource/Ruspina> ;
     ex:result "Indecisive" .
 
-<http://dbpedia.org/resource/Battle_of_Sacriporto> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Sacriporto> a ex:Roman_wars ;
     ex:causalties "Low" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Marius_the_Younger>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla_Felix> ;
@@ -1114,7 +1114,7 @@
         <http://dbpedia.org/resource/Sacriporto> ;
     ex:result "Decisive Optimate Victory" .
 
-<http://dbpedia.org/resource/Battle_of_Sentinum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Sentinum> a ex:Roman_wars ;
     ex:causalties "8,000 dead" ;
     ex:commander <http://dbpedia.org/resource/Egnatius>,
         <http://dbpedia.org/resource/Publius_Decius_Mus_(312_BC)>,
@@ -1125,7 +1125,7 @@
         <http://dbpedia.org/resource/Sentinum> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Silva_Arsia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Silva_Arsia> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aruns_(son_of_Tarquinius_Superbus)>,
         <http://dbpedia.org/resource/Lucius_Junius_Brutus>,
         <http://dbpedia.org/resource/Lucius_Tarquinius_Superbus>,
@@ -1134,14 +1134,14 @@
     ex:place <http://dbpedia.org/resource/Silva_Arsia> ;
     ex:result "Roman victory.  Defeat of monarchist forces and maintenance of Republican government." .
 
-<http://dbpedia.org/resource/Battle_of_Soissons_(486)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Soissons_(486)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Clovis_I>,
         <http://dbpedia.org/resource/Syagrius> ;
     ex:place <http://dbpedia.org/resource/Aisne>,
         <http://dbpedia.org/resource/Soissons> ;
     ex:result "Frankish victory" .
 
-<http://dbpedia.org/resource/Battle_of_Solachon> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Solachon> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aphraates_(general)>,
         <http://dbpedia.org/resource/Eiliphredas>,
         <http://dbpedia.org/resource/Heraclius_the_Elder>,
@@ -1153,14 +1153,14 @@
     ex:place <http://dbpedia.org/resource/Dara_(Mesopotamia)> ;
     ex:result "Byzantine victory" .
 
-<http://dbpedia.org/resource/Battle_of_Solicinium> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Solicinium> a ex:Roman_wars ;
     ex:causalties "heavy" ;
     ex:commander <http://dbpedia.org/resource/Valentinian_I> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Stanwick> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Stanwick> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Strasbourg> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Strasbourg> a ex:Roman_wars ;
     ex:causalties "243 killed" ;
     ex:commander <http://dbpedia.org/resource/Chnodomar>,
         <http://dbpedia.org/resource/Julian_the_Apostate> ;
@@ -1168,7 +1168,7 @@
         <http://dbpedia.org/resource/Strasbourg> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Suessula> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Suessula> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Valerius_Corvus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/First_Samnite_War> ;
@@ -1176,7 +1176,7 @@
         <http://dbpedia.org/resource/Suessula> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Suthul> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Suthul> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aulus_Postumus_Albinus>,
         <http://dbpedia.org/resource/Bomilcar_(2nd_century_BC)>,
         <http://dbpedia.org/resource/Jugurtha> ;
@@ -1185,7 +1185,7 @@
         <http://dbpedia.org/resource/Suthul> ;
     ex:result "Numidian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Taginae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Taginae> a ex:Roman_wars ;
     ex:causalties "Unknown, Minimal" ;
     ex:commander <http://dbpedia.org/resource/Narses>,
         <http://dbpedia.org/resource/Totila> ;
@@ -1195,7 +1195,7 @@
         <http://dbpedia.org/resource/Umbria> ;
     ex:result "DecisiveByzantinevictory" .
 
-<http://dbpedia.org/resource/Battle_of_Tarentum_(212_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Tarentum_(212_BC)> a ex:Roman_wars ;
     ex:causalties "1,200" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Livius> ;
@@ -1204,7 +1204,7 @@
         <http://dbpedia.org/resource/Taranto> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Telamon> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Telamon> a ex:Roman_wars ;
     ex:causalties "10,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Aneroëstes>,
         <http://dbpedia.org/resource/Concolitanus>,
@@ -1214,9 +1214,9 @@
         <http://dbpedia.org/resource/Tuscany> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Thala> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Thala> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Thapsus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Thapsus> a ex:Roman_wars ;
     ex:causalties "nearly 1,000" ;
     ex:commander <http://dbpedia.org/resource/Juba_I_of_Numidia>,
         <http://dbpedia.org/resource/Julius_Caesar>,
@@ -1227,7 +1227,7 @@
     ex:place <http://dbpedia.org/resource/Thapsus> ;
     ex:result "Decisive Caesarian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Thermopylae_(191_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Thermopylae_(191_BC)> a ex:Roman_wars ;
     ex:causalties "According to traditional accounts only 200 Romans killed or wounded" ;
     ex:commander <http://dbpedia.org/resource/Antiochus_III_the_Great>,
         <http://dbpedia.org/resource/Manius_Acilius_Glabrio_(consul_191_BC)> ;
@@ -1235,20 +1235,20 @@
     ex:place <http://dbpedia.org/resource/Thermopylae> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Thessalonica_(380)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Thessalonica_(380)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Fritigern>,
         <http://dbpedia.org/resource/Theodosius_I> ;
     ex:place <http://dbpedia.org/resource/Thessalonica> ;
     ex:result "Gothic victory" .
 
-<http://dbpedia.org/resource/Battle_of_Thyatira> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Thyatira> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Valens> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Procopius'_Rebellion> ;
     ex:place <http://dbpedia.org/resource/Phrygia>,
         <http://dbpedia.org/resource/Thyatira> ;
     ex:result "Valens victory" .
 
-<http://dbpedia.org/resource/Battle_of_Ticinus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Ticinus> a ex:Roman_wars ;
     ex:causalties "minimal" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Publius_Cornelius_Scipio> ;
@@ -1257,7 +1257,7 @@
         <http://dbpedia.org/resource/Ticino_River> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Tifernum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Tifernum> a ex:Roman_wars ;
     ex:causalties "2,000 dead" ;
     ex:commander <http://dbpedia.org/resource/Lucius_Cornelius_Scipio_Barbatus>,
         <http://dbpedia.org/resource/Quintus_Fabius_Maximus_Rullianus> ;
@@ -1267,7 +1267,7 @@
         <http://dbpedia.org/resource/Umbria> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Tigranocerta> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Tigranocerta> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Legatus>,
         <http://dbpedia.org/resource/Lucullus>,
@@ -1278,7 +1278,7 @@
         <http://dbpedia.org/resource/Tigranocerta> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Tricamarum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Tricamarum> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Belisarius>,
         <http://dbpedia.org/resource/Gelimer> ;
@@ -1287,19 +1287,19 @@
     ex:place <http://dbpedia.org/resource/Carthage> ;
     ex:result "Byzantinevictory" .
 
-<http://dbpedia.org/resource/Battle_of_Trifanum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Trifanum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Titus_Manlius_Torquatus_(347_BC)> ;
     ex:place <http://dbpedia.org/resource/Caserta>,
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Turin_(312)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Turin_(312)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Constantine_I_(emperor)> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Constantine_I_(emperor)> ;
     ex:place <http://dbpedia.org/resource/Turin> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Tzirallum> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Tzirallum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Licinius>,
         <http://dbpedia.org/resource/Maximinus_II> ;
     ex:date "0313-04-30" ;
@@ -1307,7 +1307,7 @@
     ex:place <http://dbpedia.org/resource/Heraclea_Perinthus> ;
     ex:result "Licinius is victorious" .
 
-<http://dbpedia.org/resource/Battle_of_Utica_(203_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Utica_(203_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Hasdrubal_Gisgo>,
         <http://dbpedia.org/resource/Scipio_Africanus>,
         <http://dbpedia.org/resource/Syphax> ;
@@ -1316,7 +1316,7 @@
         <http://dbpedia.org/resource/Utica,_Tunisia> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Utica_(49_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Utica_(49_BC)> a ex:Roman_wars ;
     ex:causalties "100" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Scribonius_Curio>,
         <http://dbpedia.org/resource/Publius_Attius_Varus> ;
@@ -1324,14 +1324,14 @@
     ex:place <http://dbpedia.org/resource/Utica,_Tunisia> ;
     ex:result "Popular victory" .
 
-<http://dbpedia.org/resource/Battle_of_Veii> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Veii> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Marcus_Furius_Camillus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Etruscan_Wars> ;
     ex:place <http://dbpedia.org/resource/Rome>,
         <http://dbpedia.org/resource/Veii> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Vercellae> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Vercellae> a ex:Roman_wars ;
     ex:causalties "about 1,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Boiorix>,
         <http://dbpedia.org/resource/Caesorix>,
@@ -1344,28 +1344,28 @@
         <http://dbpedia.org/resource/Northern_Italy> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Verona_(312)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Verona_(312)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Constantine_I>,
         <http://dbpedia.org/resource/Ruricius_Pompeianus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Constantine_I> ;
     ex:place <http://dbpedia.org/resource/Verona> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_Verona_(402)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Verona_(402)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Alaric_I>,
         <http://dbpedia.org/resource/Stilicho> ;
     ex:place <http://dbpedia.org/resource/Italy>,
         <http://dbpedia.org/resource/Verona> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Vesuvius> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Vesuvius> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_Vindonissa> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Vindonissa> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Constantius_Chlorus> ;
     ex:place <http://dbpedia.org/resource/Vindonissa> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Vosges_(58_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Vosges_(58_BC)> a ex:Roman_wars ;
     ex:causalties "6,000 killed or wounded" ;
     ex:commander <http://dbpedia.org/resource/Ariovistus>,
         <http://dbpedia.org/resource/Julius_Caesar> ;
@@ -1374,14 +1374,14 @@
         <http://dbpedia.org/resource/France> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Watling_Street> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Watling_Street> a ex:Roman_wars ;
     ex:causalties "Tacitus claims 400" ;
     ex:commander <http://dbpedia.org/resource/Boudica>,
         <http://dbpedia.org/resource/Gaius_Suetonius_Paulinus> ;
     ex:place <http://dbpedia.org/resource/Watling_Street> ;
     ex:result "Decisive Roman victory, end of Boudica's revolt, Roman rule secured" .
 
-<http://dbpedia.org/resource/Battle_of_Zama> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Zama> a ex:Roman_wars ;
     ex:causalties "20,000 captured",
         "20,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
@@ -1394,7 +1394,7 @@
     ex:result "Decisive Roman victory;",
         "Marks end of Second Punic War" .
 
-<http://dbpedia.org/resource/Battle_of_Zela> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_Zela> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Pharnaces_II_of_Pontus> ;
@@ -1403,9 +1403,9 @@
         <http://dbpedia.org/resource/Zile> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_Zela_(67_BC)> a owl:Thing .
+<http://dbpedia.org/resource/Battle_of_Zela_(67_BC)> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Battle_of_the_Allia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Allia> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Brennus_(4th_century)>,
         <http://dbpedia.org/resource/Quintus_Sulpicius> ;
     ex:date "-390-07-18" ;
@@ -1414,13 +1414,13 @@
         <http://dbpedia.org/resource/Rome> ;
     ex:result "Decisive Gallic victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Arar> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Arar> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Gallic_Wars> ;
     ex:place <http://dbpedia.org/resource/Gaul> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Asio_River_(82_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Asio_River_(82_BC)> a ex:Roman_wars ;
     ex:causalties "Relatively Low" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Carrinas_(general)>,
         <http://dbpedia.org/resource/Gnaeus_Pompeius_Magnus>,
@@ -1430,7 +1430,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Decisive Optimate victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Axona> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Axona> a ex:Roman_wars ;
     ex:causalties "less than 1,000 killed" ;
     ex:commander <http://dbpedia.org/resource/Julius_Caesar>,
         <http://dbpedia.org/resource/Quintus_Titurius_Sabinus> ;
@@ -1439,12 +1439,12 @@
         <http://dbpedia.org/resource/France> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Baetis_River> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Baetis_River> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Quintus_Sertorius> ;
     ex:place <http://dbpedia.org/resource/Hispania> ;
     ex:result "rebel victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Bagradas_(49_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Bagradas_(49_BC)> a ex:Roman_wars ;
     ex:causalties "10,000" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Scribonius_Curio>,
         <http://dbpedia.org/resource/Juba_I_of_Numidia>,
@@ -1455,7 +1455,7 @@
         <http://dbpedia.org/resource/Bagradas_river> ;
     ex:result "Optimates victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Catalaunian_Plains> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Catalaunian_Plains> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Andag>,
         <http://dbpedia.org/resource/Ardaric>,
@@ -1480,7 +1480,7 @@
         "Strategic Roman Victory",
         "Tactically Inconclusive" .
 
-<http://dbpedia.org/resource/Battle_of_the_Caudine_Forks> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Caudine_Forks> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Pontius>,
         <http://dbpedia.org/resource/Spurius_Postumius_Albinus>,
@@ -1489,7 +1489,7 @@
     ex:place <http://dbpedia.org/resource/Caudine_Forks> ;
     ex:result "Roman Surrender" .
 
-<http://dbpedia.org/resource/Battle_of_the_Colline_Gate_(82_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Colline_Gate_(82_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gaius_Marcius_Censorinus_(General)>,
         <http://dbpedia.org/resource/Killed_in_action>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla>,
@@ -1501,13 +1501,13 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Decisive Sullan victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Cremera> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Cremera> a ex:Roman_wars ;
     ex:causalties "306 men" ;
     ex:place <http://dbpedia.org/resource/Cremera>,
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Veientian (Etruscan) victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Frigidus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Frigidus> a ex:Roman_wars ;
     ex:causalties "10,000Goths",
         "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Alaric_I>,
@@ -1520,7 +1520,7 @@
     ex:place <http://dbpedia.org/resource/Vipava_(river)> ;
     ex:result "Theodosius gains Western Empire" .
 
-<http://dbpedia.org/resource/Battle_of_the_Great_Plains> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Great_Plains> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Laelius>,
         <http://dbpedia.org/resource/Hasdrubal_Gisco>,
@@ -1532,12 +1532,12 @@
         <http://dbpedia.org/resource/Utica,_Tunisia> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Hellespont> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Hellespont> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Crispus> ;
     ex:place <http://dbpedia.org/resource/Dardanelles> ;
     ex:result "Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Lycus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Lycus> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Mithridates_VI_of_Pontus>,
         <http://dbpedia.org/resource/Pompey> ;
@@ -1546,12 +1546,12 @@
         <http://dbpedia.org/resource/Lycus_(river_of_Pontus)> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Margus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Margus> a ex:Roman_wars ;
     ex:place <http://dbpedia.org/resource/Moesia>,
         <http://dbpedia.org/resource/Morava_River> ;
     ex:result "Diocletian victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Medway> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Medway> a ex:Roman_wars ;
     ex:causalties "850" ;
     ex:commander <http://dbpedia.org/resource/Aulus_Plautius>,
         <http://dbpedia.org/resource/Caratacus>,
@@ -1564,7 +1564,7 @@
     ex:place <http://dbpedia.org/resource/Kent> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Metaurus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Metaurus> a ex:Roman_wars ;
     ex:causalties "10,000 killed10,000 captured(according toPolybius)" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Claudius_Nero>,
         <http://dbpedia.org/resource/Hasdrubal_Barca>,
@@ -1576,7 +1576,7 @@
         <http://dbpedia.org/resource/Metaurus_River> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Milvian_Bridge> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Milvian_Bridge> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Constantine_the_Great>,
         <http://dbpedia.org/resource/Maxentius> ;
@@ -1585,7 +1585,7 @@
     ex:place <http://dbpedia.org/resource/Ponte_Milvio> ;
     ex:result "Decisive Constantinian victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Muthul> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Muthul> a ex:Roman_wars ;
     ex:causalties "Low" ;
     ex:commander <http://dbpedia.org/resource/Bomilcar_(2nd_century_BC)>,
         <http://dbpedia.org/resource/Gaius_Marius>,
@@ -1596,7 +1596,7 @@
         <http://dbpedia.org/resource/Numidia> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Nile_(47_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Nile_(47_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Arsinoe_IV_of_Egypt>,
         <http://dbpedia.org/resource/Cleopatra>,
         <http://dbpedia.org/resource/Julius_Caesar>,
@@ -1606,7 +1606,7 @@
     ex:place <http://dbpedia.org/resource/Nile_Delta> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Sabis> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Sabis> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Boduognatus>,
         <http://dbpedia.org/resource/Julius_Caesar> ;
@@ -1614,7 +1614,7 @@
     ex:place <http://dbpedia.org/resource/Gaul> ;
     ex:result "Romanvictory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Save> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Save> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Magnus_Maximus>,
         <http://dbpedia.org/resource/Theodosius_I> ;
     ex:place <http://dbpedia.org/resource/Croatia>,
@@ -1622,7 +1622,7 @@
         <http://dbpedia.org/resource/Siscia> ;
     ex:result "Eastern Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Silarus> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Silarus> a ex:Roman_wars ;
     ex:causalties "moderate (probably several thousand)" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Marcus_Centenius_Penula> ;
@@ -1631,7 +1631,7 @@
         <http://dbpedia.org/resource/Sele_River> ;
     ex:result "Carthaginian victory-Destruction of Roman force" .
 
-<http://dbpedia.org/resource/Battle_of_the_Siler_River> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Siler_River> a ex:Roman_wars ;
     ex:causalties "Appian claims about 1,000 killed, though modern estimates place Roman losses higher" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Licinius_Crassus>,
         <http://dbpedia.org/resource/Spartacus> ;
@@ -1639,7 +1639,7 @@
     ex:result "DecisiveRomanVictory",
         "End of theServile Wars" .
 
-<http://dbpedia.org/resource/Battle_of_the_Teutoburg_Forest> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Teutoburg_Forest> a ex:Roman_wars ;
     ex:causalties "Unknown." ;
     ex:commander <http://dbpedia.org/resource/Arminius>,
         <http://dbpedia.org/resource/Publius_Quinctilius_Varus> ;
@@ -1649,7 +1649,7 @@
     ex:result "Decisive Germanic victory.",
         "Roman Empire's strategic  withdrawal fromMagna Germania." .
 
-<http://dbpedia.org/resource/Battle_of_the_Trebia> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Trebia> a ex:Roman_wars ;
     ex:causalties "4,000–5,000 infantry, some elephants" ;
     ex:commander <http://dbpedia.org/resource/Hannibal>,
         <http://dbpedia.org/resource/Tiberius_Sempronius_Longus_(consul_218_BC)> ;
@@ -1657,7 +1657,7 @@
     ex:place <http://dbpedia.org/resource/Trebbia_River> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Upper_Baetis> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Upper_Baetis> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Cornelius_Scipio_Calvus>,
         <http://dbpedia.org/resource/Hasdrubal_Barca>,
@@ -1668,7 +1668,7 @@
     ex:place <http://dbpedia.org/resource/Guadalquivir> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Volturnus_(554)> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Volturnus_(554)> a ex:Roman_wars ;
     ex:causalties "minimal" ;
     ex:commander <http://dbpedia.org/resource/Butilinus>,
         <http://dbpedia.org/resource/Narses> ;
@@ -1677,7 +1677,7 @@
         <http://dbpedia.org/resource/Volturno> ;
     ex:result "DecisiveByzantinevictory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Weser_River> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Weser_River> a ex:Roman_wars ;
     ex:causalties "Minimal" ;
     ex:commander <http://dbpedia.org/resource/Arminius>,
         <http://dbpedia.org/resource/Flavus,_brother_of_Arminius>,
@@ -1687,7 +1687,7 @@
     ex:place <http://dbpedia.org/resource/Weser_River> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Battle_of_the_Willows> a owl:Thing ;
+<http://dbpedia.org/resource/Battle_of_the_Willows> a ex:Roman_wars ;
     ex:causalties "many" ;
     ex:commander <http://dbpedia.org/resource/Colias>,
         <http://dbpedia.org/resource/Fritigern>,
@@ -1699,7 +1699,7 @@
         <http://dbpedia.org/resource/Moesia> ;
     ex:result "Draw" .
 
-<http://dbpedia.org/resource/Bellum_Batonianum> a owl:Thing ;
+<http://dbpedia.org/resource/Bellum_Batonianum> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Aulus_Caecina_Severus_(suffect_consul_1_BC)>,
         <http://dbpedia.org/resource/Bato_the_Breucian>,
         <http://dbpedia.org/resource/Bato_the_Daesitiate>,
@@ -1713,7 +1713,7 @@
     ex:place <http://dbpedia.org/resource/Roman_province_of_Illyricum> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Cantabrian_Wars> a owl:Thing ;
+<http://dbpedia.org/resource/Cantabrian_Wars> a ex:Roman_wars ;
     ex:causalties "All male Cantabri and Astures of \"military age\"" ;
     ex:commander <http://dbpedia.org/resource/Caesar_Augustus>,
         <http://dbpedia.org/resource/Corocotta>,
@@ -1725,18 +1725,18 @@
         <http://dbpedia.org/resource/Province_of_León> ;
     ex:result "Decisive Roman victory" .
 
-<http://dbpedia.org/resource/Carausian_Revolt> a owl:Thing .
+<http://dbpedia.org/resource/Carausian_Revolt> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Clades_Lolliana> a owl:Thing ;
+<http://dbpedia.org/resource/Clades_Lolliana> a ex:Roman_wars ;
     ex:causalties "one legion destroyed" ;
     ex:commander <http://dbpedia.org/resource/Marcus_Lollius> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Germanic_Wars> ;
     ex:place <http://dbpedia.org/resource/Rhine> ;
     ex:result "Germanic victory" .
 
-<http://dbpedia.org/resource/Crossing_of_the_Rhine> a owl:Thing .
+<http://dbpedia.org/resource/Crossing_of_the_Rhine> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/First_Battle_of_Clusium_(82_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/First_Battle_of_Clusium_(82_BC)> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Papirius_Carbo>,
         <http://dbpedia.org/resource/Lucius_Cornelius_Sulla_Felix> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Sulla's_Second_Civil_War> ;
@@ -1744,9 +1744,9 @@
         <http://dbpedia.org/resource/Italia> ;
     ex:result "Indecisive Populares Victory" .
 
-<http://dbpedia.org/resource/Juthungi> a owl:Thing .
+<http://dbpedia.org/resource/Juthungi> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Po_Valley_raid> a owl:Thing ;
+<http://dbpedia.org/resource/Po_Valley_raid> a ex:Roman_wars ;
     ex:causalties "22 ensigns captured",
         "5,000 killed",
         "Magoseverely wounded",
@@ -1757,7 +1757,7 @@
         <http://dbpedia.org/resource/Italy> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Revolt_of_the_Batavi> a owl:Thing ;
+<http://dbpedia.org/resource/Revolt_of_the_Batavi> a ex:Roman_wars ;
     ex:causalties "Relatively light; Batavi army survives to later serve Romans again" ;
     ex:commander <http://dbpedia.org/resource/Brinno>,
         <http://dbpedia.org/resource/Claudius_Labeo>,
@@ -1773,14 +1773,14 @@
         <http://dbpedia.org/resource/Germania_Inferior> ;
     ex:result "Roman strategic victory; subjugation of the Batavi" .
 
-<http://dbpedia.org/resource/Roman_conquest_of_Anglesey> a owl:Thing ;
+<http://dbpedia.org/resource/Roman_conquest_of_Anglesey> a ex:Roman_wars ;
     ex:causalties "?" ;
     ex:commander <http://dbpedia.org/resource/Gaius_Suetonius_Paulinus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman_conquest_of_Britain> ;
     ex:place <http://dbpedia.org/resource/Anglesey> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Roman–Parthian_War_of_58–63> a owl:Thing ;
+<http://dbpedia.org/resource/Roman–Parthian_War_of_58–63> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Gnaeus_Domitius_Corbulo>,
         <http://dbpedia.org/resource/Lucius_Caesennius_Paetus>,
         <http://dbpedia.org/resource/Tigranes_VI_of_Armenia>,
@@ -1791,7 +1791,7 @@
     ex:result "Arsacidsestablished on Armenian throne as Roman clients",
         "Treaty of Rhandeia" .
 
-<http://dbpedia.org/resource/Sack_of_Rome_(410)> a owl:Thing ;
+<http://dbpedia.org/resource/Sack_of_Rome_(410)> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Alaric_I>,
         <http://dbpedia.org/resource/Ataulf>,
@@ -1801,7 +1801,7 @@
     ex:place <http://dbpedia.org/resource/Rome> ;
     ex:result "Visigoth Victory" .
 
-<http://dbpedia.org/resource/Second_Battle_of_Tapae> a owl:Thing ;
+<http://dbpedia.org/resource/Second_Battle_of_Tapae> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Decebalus>,
         <http://dbpedia.org/resource/Trajan> ;
@@ -1810,7 +1810,7 @@
         <http://dbpedia.org/resource/Transylvania> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Siege_of_Autun> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Autun> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Julian_the_Apostate> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Roman-Germanic_wars> ;
@@ -1818,16 +1818,16 @@
         <http://dbpedia.org/resource/Gallia_Lugdunensis> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Siege_of_Cyzicus> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Cyzicus> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Lucullus>,
         <http://dbpedia.org/resource/Mithridates_VI_of_Pontus> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Third_Mithridatic_War> ;
     ex:place <http://dbpedia.org/resource/Cyzicus> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Siege_of_Jerusalem_(70_CE)> a owl:Thing .
+<http://dbpedia.org/resource/Siege_of_Jerusalem_(70_CE)> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Siege_of_Massilia> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Massilia> a ex:Roman_wars ;
     ex:causalties "4,000" ;
     ex:commander <http://dbpedia.org/resource/Decimus_Junius_Brutus_Albinus>,
         <http://dbpedia.org/resource/Gaius_Trebonius>,
@@ -1839,7 +1839,7 @@
         <http://dbpedia.org/resource/Mediterranean_Sea> ;
     ex:result "Caesarian Victory, Roman annexation of Massilia" .
 
-<http://dbpedia.org/resource/Siege_of_Numantia> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Numantia> a ex:Roman_wars ;
     ex:causalties "unknown" ;
     ex:commander <http://dbpedia.org/resource/Jugurtha>,
         <http://dbpedia.org/resource/Scipio_Aemilianus> ;
@@ -1848,7 +1848,7 @@
         <http://dbpedia.org/resource/Numantia> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Siege_of_Saguntum> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Saguntum> a ex:Roman_wars ;
     ex:causalties "9,100" ;
     ex:commander <http://dbpedia.org/resource/Hannibal> ;
     ex:partOfMilitaryConflict <http://dbpedia.org/resource/Second_Punic_War> ;
@@ -1856,13 +1856,13 @@
         <http://dbpedia.org/resource/Spain> ;
     ex:result "Carthaginian victory" .
 
-<http://dbpedia.org/resource/Siege_of_Senonae> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Senonae> a ex:Roman_wars ;
     ex:causalties "Unknown" ;
     ex:commander <http://dbpedia.org/resource/Julian_the_Apostate> ;
     ex:place <http://dbpedia.org/resource/Senonae> ;
     ex:result "Roman victory" .
 
-<http://dbpedia.org/resource/Siege_of_Singara> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Singara> a ex:Roman_wars ;
     ex:causalties "Minimal" ;
     ex:commander <http://dbpedia.org/resource/Constantius_II>,
         <http://dbpedia.org/resource/Shapur_II> ;
@@ -1872,7 +1872,7 @@
     ex:result "Romanvictory,",
         "Unsuccessful Persian siege" .
 
-<http://dbpedia.org/resource/Siege_of_Syracuse_(214–212_BC)> a owl:Thing ;
+<http://dbpedia.org/resource/Siege_of_Syracuse_(214–212_BC)> a ex:Roman_wars ;
     ex:causalties "2,000" ;
     ex:commander <http://dbpedia.org/resource/Epicydes>,
         <http://dbpedia.org/resource/Marcus_Claudius_Marcellus> ;
@@ -1904,11 +1904,11 @@ ex:result a rdf:Property,
         owl:DatatypeProperty ;
     owl:subPropertyOf owl:topDataProperty .
 
-<sub> a owl:Thing .
+<sub> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Germanic_Wars> a owl:Thing .
+<http://dbpedia.org/resource/Germanic_Wars> a ex:Roman_wars .
 
-<http://dbpedia.org/resource/Caesar's_Civil_War> a owl:Thing ;
+<http://dbpedia.org/resource/Caesar's_Civil_War> a ex:Roman_wars ;
     ex:commander <http://dbpedia.org/resource/Cato_the_Younger>,
         <http://dbpedia.org/resource/Decimus_Junius_Brutus_Albinus>,
         <http://dbpedia.org/resource/Gaius_Scribonius_Curio>,
@@ -1931,4 +1931,6 @@ ex:result a rdf:Property,
         <http://dbpedia.org/resource/Ptolemaic_Kingdom>,
         <http://dbpedia.org/resource/Roman_Greece> ;
     ex:result "Caesarian victory" .
+
+ex:Roman_wars rdf:subClassOf owl:Thing .
 

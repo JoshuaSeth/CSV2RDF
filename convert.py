@@ -1,10 +1,13 @@
 import csv
 from rdflib import Graph, Literal, Namespace, URIRef
-from rdflib.namespace import DCTERMS, RDF, RDFS, SKOS, XSD
 
-
-
+#Only modify these variables when using as a normal user-----------------------------------------------------------
 input_file = list(csv.reader(open("example_input.csv")))
+
+#When left blank all entities will be of type owl:thing or add type relations when a csv header is "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" the subjects will then be assigned the values in this column as object
+subjectsClassName = "Roman_wars"
+#------------------------------------------------------------------------------------------------------------------
+
 
 prefix = ("http://example.com/kad2020/")
 # make a graph
@@ -20,7 +23,12 @@ rowIndex = 0
 for row in input_file:
 	colIndex = 0
 	subj = URIRef(row[0])
-	g.add((subj, URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://www.w3.org/2002/07/owl#Thing")))
+	 #add class to all if wanted
+	if subjectsClassName != "":
+		g.add(  (subj, URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef(prefix+subjectsClassName))  )
+		g.add(  (URIRef(prefix+subjectsClassName), URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf"),URIRef("http://www.w3.org/2002/07/owl#Thing"))  )
+	else:
+		g.add(  (subj, URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), URIRef("http://www.w3.org/2002/07/owl#Thing"))  )
 
 	#First row
 	if rowIndex==0:
