@@ -4,7 +4,7 @@ from rdflib.namespace import DCTERMS, RDF, RDFS, SKOS, XSD
 
 
 
-input_file = list(csv.reader(open("r.csv")))
+input_file = list(csv.reader(open("example_input.csv")))
 
 prefix = ("http://example.com/kad2020/")
 # make a graph
@@ -56,4 +56,4 @@ for row in input_file:
 			colIndex+=1
 	rowIndex+=1
 
-g.serialize(destination='my_graph.ttl', format='turtle')
+g.serialize(destination='example_output.ttl', format='turtle')
